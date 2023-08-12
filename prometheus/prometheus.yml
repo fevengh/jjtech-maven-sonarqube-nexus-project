@@ -8,6 +8,8 @@ scrape_configs:
     ec2_sd_configs:
       - region: ca-central-1
         port: 9100
+        region: us-east-2
+        port: 9100
 
 rule_files:
   - "alertmanager-rules.yml"
